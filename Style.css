@@ -1,0 +1,60 @@
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        /* Ensure the HTML output styles links nicely */
+        #html-output a {
+            color: #3b82f6; /* Tailwind's blue-500 */
+            text-decoration: underline;
+        }
+        #html-output a:hover {
+            color: #2563eb; /* Tailwind's blue-600 */
+        }
+        /* Basic styling for code blocks */
+        #html-output pre {
+            background-color: #f3f4f6; /* Tailwind's gray-100 */
+            padding: 1rem;
+            border-radius: 0.5rem; /* rounded-lg */
+            overflow-x: auto;
+        }
+        #html-output code {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* Styling for blockquotes */
+        #html-output blockquote {
+            border-left: 4px solid #d1d5db; /* Tailwind's gray-300 */
+            padding-left: 1rem;
+            margin-left: 0;
+            color: #4b5563; /* Tailwind's gray-600 */
+        }
+        /* Styling for tables */
+        #html-output table {
+            width: auto; /* Let table determine its own width or use w-full for full width */
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+        #html-output th, #html-output td {
+            border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+        }
+        #html-output th {
+            background-color: #f9fafb; /* Tailwind's gray-50 */
+        }
+        /* Ensure images are responsive */
+        #html-output img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.375rem; /* rounded-md */
+        }
