@@ -42,4 +42,9 @@ This project is a web application that allows users to type in **Markdown** and 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/ChitraSiddharthan/Markdown-Previewer.git
+
+### 2. Navigate into the project directory:
 cd Markdown-Previewer
+
+### 3. Open index.html in your browser:
+No build tools or installations are required. Just open the file directly, or use a live server like the VS Code extension Live Server.
