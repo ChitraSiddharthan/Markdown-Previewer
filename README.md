@@ -2,7 +2,7 @@
 
 ## 📘 Project Description
 
-This project is a web application that empowers users to type in **Markdown** and instantly see a live preview of the rendered **HTML**. Crafted as a single-page application using **React**, it delivers a dynamic and intuitive user experience.
+This project is a web application that empowers users to type in **Markdown** and instantly see a live preview of the rendered **HTML**. Crafted as a single-page application built with **React**, it delivers a dynamic and intuitive user experience.
 
 ---
 
@@ -33,8 +33,9 @@ This project is a web application that empowers users to type in **Markdown** an
 ## 🛠️ Technical Specifications
 
 - **Core Framework**: React
-- **Markdown Parsing**: Utilizes the [marked](https://marked.js.org/) library for efficient Markdown-to-HTML conversion.
-- **Styling Approach**: Leverages Tailwind CSS (delivered via CDN) in conjunction with custom CSS for styling.
+- **Markdown Parsing**: Utilizes the [marked](https://marked.js.org/) library (delivered via CDN) for efficient Markdown-to-HTML conversion.
+- **Styling**: Tailwind CSS (delivered via CDN) and custom CSS for a responsive and visually appealing design.
+- **HTML Structure**: HTML5 provides the fundamental structure of the web application, rendered and managed by React components.
 
 ---
 
@@ -54,14 +55,14 @@ cd Markdown-Previewer
 
 ### 3. Open `index.html` in Your Browser
 
-No complex build process or installations are necessary. Simply open the `index.html` file directly in your web browser, or utilize a live server extension such as the Live Server extension for VS Code for a more streamlined development experience.
+While this project is built with React, for simplicity and to avoid a build process, the `index.html` directly includes the necessary scripts via CDNs. You can open this file directly in your web browser to view the application. For development or more complex features, a typical React development setup might be used.
 
 ---
 
-## 🧠 Technologies Used
+## ⚙️ Technologies Used
 
+- React
 - HTML5
-- Tailwind CSS via CDN
-- Marked.js via CDN
-- Vanilla JavaScript
+- Tailwind CSS (via CDN)
+- Marked.js (via CDN)
 - Custom CSS
