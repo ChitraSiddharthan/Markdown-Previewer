@@ -4,6 +4,8 @@
 
 This project is a web application that empowers users to type in **Markdown** and instantly see a live preview of the rendered **HTML**. Crafted as a single-page application, it delivers a dynamic and intuitive user experience.
 
+![Screenshot 2025-05-13 210537](https://github.com/user-attachments/assets/d4b9a5a7-e146-401a-99e5-a1a28e721bbb)
+
 ---
 
 ## ✨ Key Features
